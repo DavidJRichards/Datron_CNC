@@ -1,6 +1,8 @@
 # Datron_CNC
 Custom Datron CNC configuration
 
+### [Images](./images/README.md)
+
 ### Abbreviations
 
  * TC Tool change
@@ -24,6 +26,7 @@ Custom Datron CNC configuration
 |10         |White      |  8    |  AB R  |
 
 ## Not sure what these are (taken from sketch)
+## Solenoid D connector to Green / interface key
 
 |          |         |     |
 |----------|---------|-----|
@@ -43,6 +46,12 @@ Custom Datron CNC configuration
 
 
 ## Solenoid Valve D Connector
+
+<td valign="bottom">
+<img src="./images/IMG_20230804_083237.jpg" width="200"><br>
+IMG_20230804_083237.jpg
+</td>
+
 
 |    |    |      |
 |----|----|------|
@@ -65,22 +74,34 @@ Custom Datron CNC configuration
 
 ## Green connectors and switches
 
-|  #  | Label| LR wire             | RH wire     |Function|
-|-----|------|---------------------|-------------|--------|
-| 1   | -ve  | Red                 |Common       |        |
-| 2   | -ve  | n/c                 |             |        |
+<td valign="bottom">
+<img src="./images/IMG_20230804_083251.jpg" width="200"><br>
+IMG_20230804_083251.jpg
+</td>
+
+|  #  | Label| LR wire             | RH wire     |Function  |
+|-----|------|---------------------|-------------|----------|
+| 1   | -ve  | Red                 |TC switch com|Common -ve|
+| 2   | -ve  | n/c                 |AB switch com|Common -ve
 | 3   | +ve  | Black               |24 volt input|        |
 | 4   | +ve  | n/c                 |             |        |
 | 5   | +ve  | Red/Blue, Red/Orange|24 Volt fused|+ve     |
 | 6   |      | n/c                 |             |        |
 | 7   |      | n/c                 |             |        |
 | 8   |      | grey/black          |black to 12  |L       |
-| 9   |      | grey                |             |Right R |
-| 10  |      | purple              |             |TC R    |
+| 9   |      | grey/black          |             |Right R |
+| 10  |      | mauve/blue          |             |TC R    |
 | 11  |      | yellow              |black to 8   |Left R  |
 | 12  |      | green               |             |AR L    |
 | 13  |      | blue                |             |Common  |
 
+
+## Interface circuits and power supply
+
+<td valign="bottom">
+<img src="./images/IMG_20230804_083301.jpg" width="200"><br>
+IMG_20230804_083301.jpg
+</td>
 
 
 
